@@ -8,11 +8,11 @@ import '../styles/styles.css'; // Certifique-se de que o caminho está correto
 export default function Home() {
     return (
         // Cria um contêiner div com estilos inline para centralizar o conteúdo e adicionar padding
-        <div style={{ textAlign: 'center', padding: '50px' }}>
+        <div className="background" style={{ textAlign: 'center', padding: '50px' }}>
             {/* Adiciona uma imagem usando o componente Image do Next.js */}
-            <Image src="/Gnars1.webp" alt="Logo" width={150} height={150} />
+            <Image src="/Gnars.jpg" alt="Logo" width={150} height={150} />
             {/* Adiciona um título h1 com a classe CSS 'large-text' */}
-            <h1 className="large-text">Pamtech</h1>
+            <h1 className="large-text">Petterson Gomes</h1>
             {/* Adiciona parágrafos p com a classe CSS 'medium-text' */}
             <p className="medium-text">Estalador de Will Dias</p>
             <p className="medium-text">📧 pettersonpam@gmail.com</p>

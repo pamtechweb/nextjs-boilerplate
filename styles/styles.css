@@ -1,8 +1,24 @@
 /* filepath: /C:/Pamtech/code/nextjs-boilerplate/styles/styles.css */
 .large-text {
     font-size: 2.5em;
+    color: #000000; /* Define a cor do texto como preto */
 }
 
 .medium-text {
     font-size: 1.5em;
+    color: #000000; /* Define a cor do texto como preto */
+}
+
+.background {
+    background-image: url('/pamtech.jpeg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove padding */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
 }
